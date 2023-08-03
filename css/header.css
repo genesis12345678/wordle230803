@@ -1,25 +1,24 @@
-main {
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  margin-top: 150px;
-  margin-bottom: 100px;
+header {
+  margin-bottom: 20px;
 }
 
-.board-row {
+.header-menu img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  width: 30px;
+  height: 30px;
+}
+.header-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.board-block {
+.header-icons {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 3px solid #818384;
-  width: 60px;
-  height: 60px;
+  width: 10px;
+  height: 10px;
 }
